@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title text-center>
+      School App
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="ion-padding">
+    
+    <div text-center>
+    <h4>Change Theme</h4>
+    <ion-button expand="block" color="medium" (click)="changeTheme('autumn')" text-capitalize="false">Autumn</ion-button>
+    <ion-button expand="block" color="medium" (click)="changeTheme('night')" text-capitalize="false">Dark</ion-button>
+    <ion-button expand="block" color="medium" (click)="changeTheme('neon')" text-capitalize="false">Neon</ion-button>
+    <ion-button expand="block" color="medium" (click)="changeTheme('')" text-capitalize="false">Default</ion-button>
+    <ion-button color="medium" (click)="goToDashboard()" text-capitalize="false"><ion-icon name="more"></ion-icon>Settings</ion-button>
+    </div>
+
+  </div>
+</ion-content>
